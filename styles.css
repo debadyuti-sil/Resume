@@ -82,8 +82,9 @@ body {
 .brand {
   font-family: "Fraunces", serif;
   color: var(--text);
-  font-size: 1.35rem;
+  font-size: clamp(1.7rem, 2.6vw, 2.25rem);
   font-weight: 700;
+  line-height: 1;
 }
 
 .nav {
@@ -95,6 +96,7 @@ body {
 .nav a {
   color: var(--muted);
   font-weight: 700;
+  font-size: 0.98rem;
 }
 
 .panel {
@@ -130,12 +132,12 @@ h2 {
 }
 
 h1 {
-  font-size: clamp(3rem, 6vw, 5.8rem);
-  max-width: 11ch;
+  font-size: clamp(2.6rem, 4.6vw, 4.6rem);
+  max-width: 12ch;
 }
 
 h2 {
-  font-size: clamp(1.7rem, 3vw, 2.6rem);
+  font-size: clamp(1.5rem, 2.4vw, 2.15rem);
 }
 
 .lede,
@@ -145,8 +147,8 @@ h2 {
 .fallback p,
 .stat-label {
   color: var(--muted);
-  font-size: 1.03rem;
-  line-height: 1.75;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 .lede {
@@ -279,7 +281,7 @@ h2 {
 .stat-number {
   margin: 0 0 8px;
   font-family: "Fraunces", serif;
-  font-size: clamp(2.4rem, 4vw, 3.5rem);
+  font-size: clamp(2.1rem, 3vw, 3rem);
   color: var(--accent);
 }
 
@@ -351,11 +353,13 @@ h2 {
 .timeline-role {
   font-weight: 800;
   color: var(--text);
+  font-size: 1.06rem;
 }
 
 .timeline-company {
   color: var(--accent);
   font-weight: 800;
+  font-size: 1rem;
 }
 
 .timeline-date {
@@ -453,6 +457,10 @@ h2 {
   .section-head {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .brand {
+    font-size: 1.9rem;
   }
 
   .hero,
