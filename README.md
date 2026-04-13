@@ -6,6 +6,7 @@ This repository contains the latest PDF version of Debadyuti Sil's resume.
 
 - `Debadyuti_Sil_Salesforce_Resume_2026.pdf`: current Salesforce-focused resume
 - Direct link: [View Resume PDF](https://github.com/debadyuti-sil/Resume/blob/main/Debadyuti_Sil_Salesforce_Resume_2026.pdf)
+- Download link: [Download Resume PDF](https://raw.githubusercontent.com/debadyuti-sil/Resume/main/Debadyuti_Sil_Salesforce_Resume_2026.pdf)
 
 ## Purpose
 
